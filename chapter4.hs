@@ -47,3 +47,6 @@ and1 x y = if x then if y then True else False else False
 and2 :: Bool -> Bool -> Bool 
 and2 x y = if x == True then y else False
 
+--4.8.7
+luhnDouble :: Int -> Int
+luhnDouble x =  if y > 9 then y - 9 else y where y = x * 2
